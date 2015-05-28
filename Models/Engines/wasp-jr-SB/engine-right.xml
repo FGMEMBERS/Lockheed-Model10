@@ -1,0 +1,45 @@
+<PropertyList>
+
+  <path>wasp-jr-SB.ac</path>
+
+	<effect>
+	    <inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
+	    <object-name>Engine</object-name>
+	</effect>
+
+	<animation>
+		<type>spin</type>
+		<enable-hot>false</enable-hot>
+		<object-name>Prop</object-name>
+		<property>engines/engine[1]/rpm</property>
+		<factor>1</factor>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<enable-hot>false</enable-hot>
+		<object-name>Prop</object-name>
+		<factor>60</factor>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+</PropertyList>

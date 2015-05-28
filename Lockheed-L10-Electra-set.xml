@@ -1,0 +1,11 @@
+<!--************************************************************************
+      Lockheed-L10-Electra
+      (c)2011 Emilian Huminiuc
+    ************************************************************************ -->
+<PropertyList include="Lockheed-L10-Electra-base.xml">
+	<sim>
+		<description>Lockheed L10 Electra</description>
+		<flight-model>yasim</flight-model>
+		<aero>Lockheed-L10-Electra-yasim</aero>
+	</sim>
+</PropertyList>
