@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<path>Electra10.ac</path>
+
+	<!-- Bug test -->
+	<!--    <model>
+		<path>Engines/wasp-jr-SB/test.xml</path>
+	</model>-->
+
+	<!-- EFFECTS -->
+	<effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_glass</inherits-from>
+		<object-name>Glass</object-name>
+		<object-name>NoseGlass</object-name>
+		<object-name>Windshield</object-name>
+		<object-name>CockpitGlassM</object-name>
+		<object-name>CockpitGlassS</object-name>
+	</effect>
+
+	<!-- effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect</inherits-from>
+		<object-name>Fuselage</object-name>
+		<object-name>Wing</object-name>
+		<object-name>Hstab</object-name>
+		<object-name>Vstab</object-name>
+		<object-name>Elevator</object-name>
+		<object-name>ElevTab</object-name>
+		<object-name>RudderL</object-name>
+		<object-name>RudderR</object-name>
+		<object-name>AileronL</object-name>
+		<object-name>AileronR</object-name>
+		<object-name>FlapL</object-name>
+		<object-name>FlapR</object-name>
+	</effect -->
+
+	<!-- effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_cowl</inherits-from>
+		<object-name>Cowling</object-name>
+		<object-name>Exhaust</object-name>
+	</effect -->
+
+	<animation>
+		<type>material</type>
+		<object-name>GearActL</object-name>
+		<object-name>GearStrutUL</object-name>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<object-name>GearActR</object-name>
+		<object-name>GearStrutUR</object-name>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+		<shininess>16</shininess>
+	</animation>
+
+	<!-- effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_gear</inherits-from>
+		<object-name>GearActL</object-name>
+		<object-name>GearStrutUL</object-name>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<object-name>GearActR</object-name>
+		<object-name>GearStrutUR</object-name>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+	</effect -->
+
+	<!-- ENGINES -->
+	<model>
+		<path>Aircraft/Lockheed-Model10/Models/Engines/wasp-jr-SB/engine-left.xml</path>
+		<offsets>
+			<x-m>0.815</x-m>
+			<y-m>-2.10</y-m>
+			<z-m>-0.53</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<path>Aircraft/Lockheed-Model10/Models/Engines/wasp-jr-SB/engine-right.xml</path>
+		<offsets>
+			<x-m>0.815</x-m>
+			<y-m> 2.10</y-m>
+			<z-m>-0.53</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+
+	<!-- 	CONTROL SURFACES -->
+	<!-- Aileron -->
+	<animation>
+		<type>select</type>
+		<object-name>AileronL</object-name>
+		<object-name>AileronR</object-name>
+		<condition>
+			<property>/sim/failure-manager/controls/flight/aileron/serviceable</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>AileronL</object-name>
+		<property>surface-positions/left-aileron-pos-norm</property>
+		<interpolation>
+			<entry>		<ind>-1</ind>	<dep>-26</dep>	</entry>
+			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
+			<entry>		<ind> 1</ind>	<dep>  6</dep>	</entry>
+		</interpolation>
+		<axis>
+			<x1-m> 4.311</x1-m>
+			<y1-m>-7.874</y1-m>
+			<z1-m>-0.003</z1-m>
+			<x2-m> 4.768</x2-m>
+			<y2-m>-4.503</y2-m>
+			<z2-m>-0.284</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>AileronR</object-name>
+		<property>surface-positions/right-aileron-pos-norm</property>
+		<interpolation>
+			<entry>		<ind>-1</ind>	<dep> 26</dep>	</entry>
+			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
+			<entry>		<ind> 1</ind>	<dep> -6</dep>	</entry>
+		</interpolation>
+		<axis>
+			<x1-m> 4.311</x1-m>
+			<y1-m> 7.874</y1-m>
+			<z1-m>-0.003</z1-m>
+			<x2-m> 4.768</x2-m>
+			<y2-m> 4.503</y2-m>
+			<z2-m>-0.284</z2-m>
+		</axis>
+	</animation>
+
+	<!-- Elevator -->
+	<animation>
+		<type>select</type>
+		<object-name>Elevator</object-name>
+		<object-name>ElevTab</object-name>
+		<condition>
+			<property>/sim/failure-manager/controls/flight/elevator/serviceable</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Elevator</object-name>
+		<object-name>ElevTab</object-name>
+		<property>surface-positions/elevator-pos-norm</property>
+		<interpolation>
+			<entry>		<ind>-1</ind>	<dep>-15</dep>	</entry>
+			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
+			<entry>		<ind> 1</ind>	<dep> 20</dep>	</entry>
+		</interpolation>
+		<center>
+			<x-m>10.870</x-m>
+			<y-m> 0.000</y-m>
+			<z-m> 0.669</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>ElevTab</object-name>
+		<property>surface-positions/elevator-pos-norm</property>
+		<interpolation>
+			<entry>		<ind>-1</ind>	<dep>-20</dep>	</entry>
+			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
+			<entry>		<ind> 1</ind>	<dep> 15</dep>	</entry>
+		</interpolation>
+		<center>
+			<x-m>11.350</x-m>
+			<y-m> 0.000</y-m>
+			<z-m> 0.661</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+
+	<!-- RUDDER -->
+	<animation>
+		<type>select</type>
+		<object-name>RudderL</object-name>
+		<object-name>RudderR</object-name>
+		<condition>
+			<property>/sim/failure-manager/controls/flight/rudder/serviceable</property>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>RudderL</object-name>
+		<property>controls/flight/rudder</property>
+		<factor>25</factor>
+		<center>
+			<x-m>10.837</x-m>
+			<y-m>-2.833</y-m>
+			<z-m>0.871</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>RudderR</object-name>
+		<property>controls/flight/rudder</property>
+		<factor>25</factor>
+		<center>
+			<x-m>10.837</x-m>
+			<y-m>2.833</y-m>
+			<z-m>0.871</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+
+	<!-- FLAPS -->
+	<animation>
+		<type>rotate</type>
+		<object-name>FlapL</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>45</factor>
+		<axis>
+			<x1-m> 4.57</x1-m>
+			<y1-m>-4.505</y1-m>
+			<z1-m>-0.359</z1-m>
+			<x2-m> 5.222</x2-m>
+			<y2-m>-0.734</y2-m>
+			<z2-m>-0.705</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>FlapR</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>-45</factor>
+		<axis>
+			<x1-m> 4.57</x1-m>
+			<y1-m> 4.505</y1-m>
+			<z1-m>-0.359</z1-m>
+			<x2-m> 5.222</x2-m>
+			<y2-m> 0.734</y2-m>
+			<z2-m>-0.705</z2-m>
+		</axis>
+	</animation>
+
+	<!-- GEAR -->
+	<!-- Left Main -->
+	<animation>
+		<type>rotate</type>
+		<object-name>GearActL</object-name>
+		<object-name>GearStrutUL</object-name>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<property>gear/gear[0]/position-norm</property>
+		<interpolation>
+			<entry>		<ind>0.0</ind>	<dep>-90</dep>	 </entry>
+			<entry>		<ind>0.2</ind>	<dep>-85.0</dep> </entry>
+			<entry>		<ind>1.0</ind>	<dep> 0.0</dep>	 </entry>
+		</interpolation>
+		<center>
+			<x-m> 2.571</x-m>
+			<y-m>-2.114</y-m>
+			<z-m>-0.729</z-m>
+		</center>
+		<axis>
+			<x> 0</x>
+			<y> 1</y>
+			<z> 0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<property>gear/gear[0]/compression-norm</property>
+		<interpolation>
+			<entry>		<ind>0.0</ind>	<dep>0.000</dep>	</entry>
+			<entry>		<ind>0.5</ind>	<dep>0.075</dep>	</entry>
+			<entry>		<ind>1.0</ind>	<dep>0.219</dep>	</entry>
+		</interpolation>
+		<axis>
+			<x>	0</x>
+			<y>	0</y>
+			<z> 1.00</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>WheelMainL</object-name>
+		<property>gear/gear[0]/rollspeed-ms</property>
+		<factor>21</factor>
+		<center>
+			<x-m> 2.571</x-m>
+			<y-m>-1.955</y-m>
+			<z-m>-2.066</z-m>
+		</center>
+		<axis>
+			<x> 0.0</x>
+			<y>-1.0</y>
+			<z> 0.0</z>
+		</axis>
+	</animation>
+
+	<!-- Right Main -->
+	<animation>
+		<type>rotate</type>
+		<object-name>GearActR</object-name>
+		<object-name>GearStrutUR</object-name>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<property>gear/gear[1]/position-norm</property>
+		<interpolation>
+			<entry>		<ind>0.0</ind>	<dep>-90</dep>	</entry>
+			<!--<entry>		<ind>0.2</ind>	<dep>-85.0</dep>	</entry>-->
+			<entry>		<ind>1.0</ind>	<dep> 0.0</dep>	</entry>
+		</interpolation>
+		<center>
+			<x-m> 2.571</x-m>
+			<y-m> 2.114</y-m>
+			<z-m>-0.729</z-m>
+		</center>
+		<axis>
+			<x> 0</x>
+			<y> 1</y>
+			<z> 0</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<property>gear/gear[1]/compression-norm</property>
+		<interpolation>
+			<entry>		<ind>0.0</ind>	<dep>0.000</dep>	</entry>
+			<entry>		<ind>0.5</ind>	<dep>0.075</dep>	</entry>
+			<entry>		<ind>1.0</ind>	<dep>0.219</dep>	</entry>
+		</interpolation>
+		<axis>
+			<x>	0</x>
+			<y>	0</y>
+			<z> 1.00</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>WheelMainR</object-name>
+		<property>gear/gear[1]/rollspeed-ms</property>
+		<factor>21</factor>
+		<center>
+			<x-m> 2.571</x-m>
+			<y-m> 1.955</y-m>
+			<z-m>-2.066</z-m>
+		</center>
+		<axis>
+			<x> 0.0</x>
+			<y>-1.0</y>
+			<z> 0.0</z>
+		</axis>
+	</animation>
+
+	<!-- 	Tail Gear -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+		<property>gear/gear[2]/compression-norm</property>
+		<interpolation>
+			<entry>		<ind>0.0</ind>	<dep> 0.000</dep>	</entry>
+			<entry>		<ind>0.5</ind>	<dep>-0.075</dep>	</entry>
+			<entry>		<ind>1.0</ind>	<dep>-0.100</dep>	</entry>
+		</interpolation>
+		<axis>
+			<x1-m>10.532</x1-m>
+			<y1-m> 0.0</y1-m>
+			<z1-m> 0.539</z1-m>
+			<x2-m>10.806</x2-m>
+			<y2-m> 0.0</y2-m>
+			<z2-m>-0.215</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+		<property>gear/gear[2]/caster-angle-deg</property>
+		<factor>-1</factor>
+		<axis>
+			<x1-m>10.532</x1-m>
+			<y1-m> 0.0</y1-m>
+			<z1-m> 0.539</z1-m>
+			<x2-m>10.806</x2-m>
+			<y2-m> 0.0</y2-m>
+			<z2-m>-0.215</z2-m>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>WheelT</object-name>
+		<property>gear/gear[2]/rollspeed-ms</property>
+		<factor>26.4</factor>
+		<center>
+			<x-m>10.995</x-m>
+			<y-m> 0.0</y-m>
+			<z-m>-0.326</z-m>
+		</center>
+		<axis>
+			<x> 0.0</x>
+			<y>-1.0</y>
+			<z> 0.0</z>
+		</axis>
+	</animation>
+
+</PropertyList>

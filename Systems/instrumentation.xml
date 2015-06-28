@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<airspeed-indicator>
+		<name>airspeed-indicator</name>
+		<number>0</number>
+		<total-pressure>/systems/pitot/total-pressure-inhg</total-pressure>
+		<static-pressure>/systems/static/pressure-inhg</static-pressure>
+	</airspeed-indicator>
+  
+	<altimeter>
+		<name>altimeter</name>
+		<number>0</number>
+		<static-pressure>/systems/static/pressure-inhg</static-pressure>
+		<quantum>0</quantum>
+		<tau>0</tau>
+	</altimeter>
+  
+	<attitude-indicator>
+		<name>attitude-indicator</name>
+		<number>0</number>
+		<suction>/systems/vacuum/suction-inhg</suction>
+	</attitude-indicator>
+  
+	<attitude-indicator>
+		<name>attitude-indicator</name>
+		<number>1</number>
+		<suction>/systems/static/pressure-inhg</suction>
+	</attitude-indicator>
+
+	<!--electricaly driven, so ... false branched on false vacuum pressure -->
+  
+	<magnetic-compass>
+		<name>magnetic-compass</name>
+		<number>0</number>
+	</magnetic-compass>
+  
+	<altimeter>
+		<name>encoder</name>
+		<number>0</number>
+		<static-pressure>/systems/static/pressure-inhg</static-pressure>
+		<quantum>10</quantum>
+		<tau>0.1</tau>
+	</altimeter>
+  
+	<slip-skid-ball>
+		<name>slip-skid-ball</name>
+		<number>0</number>
+	</slip-skid-ball>
+  
+	<vertical-speed-indicator>
+		<name>vertical-speed-indicator</name>
+		<number>0</number>
+		<static-pressure>/systems/static/pressure-inhg</static-pressure>
+	</vertical-speed-indicator>
+
+</PropertyList>

@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
+
 <PropertyList>
 	<fx>
-<!-- LEFT ENGINE -->
-<!-- ENGINE START -->
+		<!-- LEFT ENGINE -->
+		<!-- ENGINE START -->
 		<crank>
 			<name>crankL</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/starter.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/starter.wav</path>
 			<condition>
 				<property>engines/engine[0]/cranking</property>
 				<less-than>
@@ -24,11 +25,12 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</crank>
-<!-- ENGINE RUNNING -->
+
+	<!-- ENGINE RUNNING -->
 		<enginehi>
 			<name>engine-hiL</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/iar-running-m.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/iar-running-m.wav</path>
 			<condition>
 				<property>engines/engine[0]/running</property>
 				<less-than>
@@ -59,7 +61,7 @@
 		<enginelo>
 			<name>engine-loL</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/iar-Slow.wav</path>
+			<path>Aircraft/Model10/Sounds/iar-Slow.wav</path>
 			<condition>
 				<property>engines/engine[0]/running</property>
 				<greater-than>
@@ -90,7 +92,7 @@
 		<engine-idle>
 			<name>engine-idleL</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/engine.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/engine.wav</path>
 			<condition>
 				<property>engines/engine[0]/running</property>
 				<greater-than>
@@ -118,10 +120,11 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</engine-idle>
-<!-- ENGINE STOP -->
+
+		<!-- ENGINE STOP -->
 		<enginestop>
 			<name>engineoffL</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/shutdown.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/shutdown.wav</path>
 			<condition>
 				<and>
 					<greater-than>
@@ -155,10 +158,11 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</enginestop>
-<!-- ENGINE COUGH -->
+
+		<!-- ENGINE COUGH -->
 		<enginecough>
 			<name>coughL</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/coughing.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/coughing.wav</path>
 			<type>raise</type>
 			<condition>
 				<and>
@@ -194,11 +198,11 @@
 			</position>
 		</enginecough>
 
-<!-- RIGHT ENGINE -->
-<!-- ENGINE START -->
+		<!-- RIGHT ENGINE -->
+		<!-- ENGINE START -->
 		<crank>
 			<name>crankR</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/starter.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/starter.wav</path>
 			<condition>
 				<property>engines/engine[1]/cranking</property>
 				<less-than>
@@ -217,11 +221,12 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</crank>
-<!-- ENGINE RUNNING -->
+
+		<!-- ENGINE RUNNING -->
 		<enginehi>
 			<name>engine-hiR</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/iar-running-m.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/iar-running-m.wav</path>
 			<condition>
 				<property>engines/engine[1]/running</property>
 				<less-than>
@@ -252,7 +257,7 @@
 		<enginelo>
 			<name>engine-loR</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/iar-Slow.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/iar-Slow.wav</path>
 			<condition>
 				<property>engines/engine[1]/running</property>
 				<greater-than>
@@ -283,7 +288,7 @@
 		<engine-idle>
 			<name>engine-idleR</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/engine.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/engine.wav</path>
 			<condition>
 				<property>engines/engine[1]/running</property>
 				<greater-than>
@@ -311,10 +316,11 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</engine-idle>
-<!-- ENGINE STOP -->
+
+		<!-- ENGINE STOP -->
 		<enginestop>
 			<name>engineoffR</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/shutdown.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/shutdown.wav</path>
 			<condition>
 				<and>
 					<greater-than>
@@ -348,10 +354,11 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</enginestop>
-<!-- ENGINE COUGH -->
+
+		<!-- ENGINE COUGH -->
 		<enginecough>
 			<name>coughR</name>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/coughing.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/coughing.wav</path>
 			<type>raise</type>
 			<condition>
 				<and>
@@ -386,7 +393,8 @@
 				<z-m>-0.53</z-m>
 			</position>
 		</enginecough>
-<!-- GEAR RUMBLE -->
+
+		<!-- GEAR RUMBLE -->
 		<rumbleL>
 			<name>rumble-left</name>
 			<mode>looped</mode>
@@ -448,7 +456,8 @@
 			<reference-dist>3</reference-dist>
 			<max-dist>10</max-dist>
 		</rumbleR>
-<!-- GEAR TRANSIT -->
+
+		<!-- GEAR TRANSIT -->
 		<gearL>
 			<name>gearL</name>
 			<mode>in-transit</mode>
@@ -530,7 +539,8 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</gearlR>
-<!-- GEAR SQUEAL -->
+
+		<!-- GEAR SQUEAL -->
 		<squeal>
 			<name>squeal</name>
 			<path>Sounds/squeal.wav</path>
@@ -564,7 +574,8 @@
 			<reference-dist>20</reference-dist>
 			<max-dist>50</max-dist>
 		</squeal>
-<!-- FLAPS -->
+
+		<!-- FLAPS -->
 		<flap>
 			<name>flaps</name>
 			<mode>in-transit</mode>
@@ -581,11 +592,12 @@
 			<reference-dist>3</reference-dist>
 			<max-dist>10</max-dist>
 		</flap>
-<!-- CANOPY -->
+
+		<!-- CANOPY -->
 		<canopyL>
 			<name>canopy-openl</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/canopy-slide.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/canopy-slide.wav</path>
 			<property>controls/canopy/position-norm</property>
 			<volume>
 				<factor>0.12</factor>
@@ -602,7 +614,7 @@
 		<canopyR>
 			<name>canopy-openr</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/canopy-slide.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/canopy-slide.wav</path>
 			<property>controls/canopy/position-norm</property>
 			<volume>
 				<factor>0.12</factor>
@@ -615,7 +627,8 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</canopyR>
-<!-- WIND -->
+
+		<!-- WIND -->
 		<wind>
 			<name>wind</name>
 			<mode>looped</mode>
@@ -644,11 +657,12 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</wind>
-<!-- AIRFRAME TORSION -->
+
+		<!-- AIRFRAME TORSION -->
 		<high-g>
 			<name>high-g</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/airframe-torsion.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/airframe-torsion.wav</path>
 			<condition>
 				<or>
 					<greater-than>
@@ -678,11 +692,12 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</high-g>
-<!-- PRE-STALL BUFFETING -->
+
+		<!-- PRE-STALL BUFFETING -->
 		<pre-stall>
 			<name>pre-stall</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-L10-Electra/Sounds/stall.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/stall.wav</path>
 			<condition>
 			    <or>
 				<greater-than>
@@ -712,7 +727,8 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</pre-stall>
-<!-- PRIMER -->
+
+		<!-- PRIMER -->
 		<squish>
 			<name>primer out</name>
 			<mode>once</mode>
@@ -752,7 +768,8 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</squish>
-<!-- STARTER SWITCH -->
+
+		<!-- STARTER SWITCH -->
 		<starter-switch>
 			<name>starter on</name>
 			<mode>once</mode>
@@ -798,7 +815,7 @@
 			<max-dist>5</max-dist>
 		</starter-switch>
 
-<!-- PANEL LIGHTS SWITCHES -->
+		<!-- PANEL LIGHTS SWITCHES -->
 		<click>
 		    <name>plsr on</name>
 		    <mode>once</mode>
@@ -889,7 +906,7 @@
 		    <max-dist>5</max-dist>
 		</click>
 
-<!-- INTRERUPATOR GENERAL -->
+		<!-- INTRERUPATOR GENERAL -->
 		<click>
 		    <name>intrgen on</name>
 		    <mode>once</mode>
@@ -936,7 +953,7 @@
 		    <max-dist>5</max-dist>
 		</click>
 
-<!-- navlight swithc -->
+		<!-- navlight switch -->
 		<click>
 		    <name>navlight on</name>
 		    <mode>once</mode>
@@ -983,7 +1000,7 @@
 		    <max-dist>5</max-dist>
 		</click>
 
-<!-- MAGNETOS SWITCH -->
+		<!-- MAGNETOS SWITCH -->
 		<click>
 			<name>mag up1</name>
 			<mode>once</mode>
@@ -1087,11 +1104,12 @@
 			<reference-dist>2</reference-dist>
 			<max-dist>5</max-dist>
 		</click>
-<!-- GUNS -->
+
+		<!-- GUNS -->
                 <guns>
                         <name>gunfirel1</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
 			    <property>controls/armament/gun-fire</property>
                             <property>ai/submodels/submodel[0]/count</property>
@@ -1111,7 +1129,7 @@
                 <guns>
                         <name>mgfirel2</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
 			    <property>controls/armament/mg-fire</property>
                             <property>ai/submodels/submodel[2]/count</property>
@@ -1135,7 +1153,7 @@
                 <guns>
                         <name>mgfirel3</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
 			    <property>controls/armament/mg-fire</property>
                             <property>ai/submodels/submodel[4]/count</property>
@@ -1158,7 +1176,7 @@
                 <guns>
                         <name>gunfirer1</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
 			    <property>controls/armament/gun-fire</property>
                             <property>ai/submodels/submodel[6]/count</property>
@@ -1178,7 +1196,7 @@
                 <guns>
                         <name>mgfirer2</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
 			    <property>controls/armament/mg-fire</property>
                             <property>ai/submodels/submodel[8]/count</property>
@@ -1201,7 +1219,7 @@
                 <guns>
                         <name>mgfirer3</name>
                         <mode>looped</mode>
-                        <path>Aircraft/Lockheed-L10-Electra/Sounds/gunfire_1.wav</path>
+                        <path>Aircraft/Lockheed-Model10/Sounds/gunfire_1.wav</path>
                         <condition>
                             <property>controls/armament/mg-fire</property>
                             <property>ai/submodels/submodel[10]/count</property>
@@ -1221,7 +1239,7 @@
 			<reference-dist>50</reference-dist>
                 </guns>
 
-<!-- 		MANUAL PUMP -->
+		<!-- MANUAL PUMP -->
 		<squish>
 			<name>pump out</name>
 			<mode>once</mode>
@@ -1262,7 +1280,7 @@
 			<max-dist>5</max-dist>
 		</squish>
 
-<!-- CLOCK -->
+		<!-- CLOCK -->
 		<!--<clock>
 			<name>seconds</name>
 			<mode>in-transit</mode>
@@ -1288,4 +1306,5 @@
 			<max-dist>5</max-dist>
 		</clock>-->
 	</fx>
+
 </PropertyList>

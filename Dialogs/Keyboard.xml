@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+	<keyboard>
+    
+		<key n="117">
+			<name>u</name>
+			<desc>Boost0</desc>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+				<value>0</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[1]/boost-speed</property>
+				<value>0</value>
+			</binding>
+		</key>
+
+		<key n="118">
+			<name>v</name>
+			<desc>Boost1</desc>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+				<value>1</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[1]/boost-speed</property>
+				<value>1</value>
+			</binding>
+		</key>
+
+		<key n="119">
+			<name>w</name>
+			<desc>Boost2</desc>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+				<value>2</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[1]/boost-speed</property>
+				<value>2</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[2]/boost-speed</property>
+				<value>2</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[3]/boost-speed</property>
+				<value>2</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[4]/boost-speed</property>
+				<value>2</value>
+			</binding>
+			<binding>
+				<command>property-assign</command>
+				<property>fdm/jsbsim/propulsion/engine[5]/boost-speed</property>
+				<value>2</value>
+			</binding>
+		</key>
+
+		<key n="68">
+			<name>D</name>
+			<desc>Passenger door</desc>
+			<binding>
+				<command>nasal</command>
+				<script>doors.passenger.toggle();</script>
+			</binding>
+		</key>
+  
+		<key n="100">
+			<name>d</name>
+			<desc>Canopy</desc>
+			<binding>
+				<command>nasal</command>
+				<script>doors.crew.toggle();</script>
+			</binding>
+		</key>
+    
+	</keyboard>
+  
+</PropertyList>

@@ -1,101 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
 <PropertyList>
 
-	<path>Lockheed-L10.ac</path>
+	<path>Electra10.ac</path>
 
-<!-- Bug test -->
-<!--    <model>
-	    <path>Engines/wasp-jr-SB/test.xml</path>
-    </model>-->
+	<!-- Bug test -->
+	<!--    <model>
+		<path>Engines/wasp-jr-SB/test.xml</path>
+	</model>-->
 
-<!-- EFFECTS -->
-    <effect>
-	<inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_glass</inherits-from>
-	<object-name>Glass</object-name>
-	<object-name>NoseGlass</object-name>
-	<object-name>Windshield</object-name>
-	<object-name>CockpitGlassM</object-name>
-	<object-name>CockpitGlassS</object-name>
-    </effect>
+	<!-- EFFECTS -->
+	<effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_glass</inherits-from>
+		<object-name>Glass</object-name>
+		<object-name>NoseGlass</object-name>
+		<object-name>Windshield</object-name>
+		<object-name>CockpitGlassM</object-name>
+		<object-name>CockpitGlassS</object-name>
+	</effect>
 
-    <effect>
-	<inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_bumpspecreflect</inherits-from>
-	<object-name>Fuselage</object-name>
-	<object-name>Wing</object-name>
-	<object-name>Hstab</object-name>
-	<object-name>Vstab</object-name>
-	<object-name>Elevator</object-name>
-	<object-name>ElevTab</object-name>
-	<object-name>RudderL</object-name>
-	<object-name>RudderR</object-name>
-	<object-name>AileronL</object-name>
-	<object-name>AileronR</object-name>
-	<object-name>FlapL</object-name>
-	<object-name>FlapR</object-name>
-    </effect>
+	<!-- effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect</inherits-from>
+		<object-name>Fuselage</object-name>
+		<object-name>Wing</object-name>
+		<object-name>Hstab</object-name>
+		<object-name>Vstab</object-name>
+		<object-name>Elevator</object-name>
+		<object-name>ElevTab</object-name>
+		<object-name>RudderL</object-name>
+		<object-name>RudderR</object-name>
+		<object-name>AileronL</object-name>
+		<object-name>AileronR</object-name>
+		<object-name>FlapL</object-name>
+		<object-name>FlapR</object-name>
+	</effect -->
 
-    <effect>
-       <inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_bumpspecreflect_cowl</inherits-from>
-       <object-name>Cowling</object-name>
-       <object-name>Exhaust</object-name>
-    </effect>
+	<effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_cowl</inherits-from>
+		<object-name>Cowling</object-name>
+		<object-name>Exhaust</object-name>
+	</effect>
 
-    <animation>
-	<type>material</type>
-	<object-name>GearActL</object-name>
-	<object-name>GearStrutUL</object-name>
-	<object-name>GearStrutLL</object-name>
-	<object-name>WheelMainL</object-name>
-	<object-name>BrakeLineL</object-name>
-	<object-name>GearActR</object-name>
-	<object-name>GearStrutUR</object-name>
-	<object-name>GearStrutLR</object-name>
-	<object-name>WheelMainR</object-name>
-	<object-name>BrakeLineR</object-name>
-	<object-name>GearTStrut</object-name>
-	<object-name>WheelT</object-name>
-	<shininess>16</shininess>
-    </animation>
+	<animation>
+		<type>material</type>
+		<object-name>GearActL</object-name>
+		<object-name>GearStrutUL</object-name>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<object-name>GearActR</object-name>
+		<object-name>GearStrutUR</object-name>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+		<shininess>16</shininess>
+	</animation>
 
-    <effect>
-	<inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_bumpspecreflect_gear</inherits-from>
-	<object-name>GearActL</object-name>
-	<object-name>GearStrutUL</object-name>
-	<object-name>GearStrutLL</object-name>
-	<object-name>WheelMainL</object-name>
-	<object-name>BrakeLineL</object-name>
-	<object-name>GearActR</object-name>
-	<object-name>GearStrutUR</object-name>
-	<object-name>GearStrutLR</object-name>
-	<object-name>WheelMainR</object-name>
-	<object-name>BrakeLineR</object-name>
-	<object-name>GearTStrut</object-name>
-	<object-name>WheelT</object-name>
-    </effect>
+	<effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_gear</inherits-from>
+		<object-name>GearActL</object-name>
+		<object-name>GearStrutUL</object-name>
+		<object-name>GearStrutLL</object-name>
+		<object-name>WheelMainL</object-name>
+		<object-name>BrakeLineL</object-name>
+		<object-name>GearActR</object-name>
+		<object-name>GearStrutUR</object-name>
+		<object-name>GearStrutLR</object-name>
+		<object-name>WheelMainR</object-name>
+		<object-name>BrakeLineR</object-name>
+		<object-name>GearTStrut</object-name>
+		<object-name>WheelT</object-name>
+	</effect>
 
-<!-- ENGINES -->
-    <model>
-	<path>Aircraft/Lockheed-L10-Electra/Models/Engines/wasp-jr-SB/engine-left.xml</path>
-	    <offsets>
+	<!-- ENGINES -->
+	<model>
+		<path>Aircraft/Lockheed-Model10/Models/Engines/wasp-jr-SB/engine-left.xml</path>
+		<offsets>
 			<x-m>0.815</x-m>
 			<y-m>-2.10</y-m>
 			<z-m>-0.53</z-m>
 			<pitch-deg>0</pitch-deg>
-	    </offsets>
-    </model>
+		</offsets>
+	</model>
 
-    <model>
-	<path>Aircraft/Lockheed-L10-Electra/Models/Engines/wasp-jr-SB/engine-right.xml</path>
-	    <offsets>
+	<model>
+		<path>Aircraft/Lockheed-Model10/Models/Engines/wasp-jr-SB/engine-right.xml</path>
+		<offsets>
 			<x-m>0.815</x-m>
 			<y-m> 2.10</y-m>
 			<z-m>-0.53</z-m>
 			<pitch-deg>0</pitch-deg>
-	    </offsets>
-    </model>
+		</offsets>
+	</model>
 
 
-<!-- 	CONTROL SURFACES -->
-<!-- Aileron -->
+	<!-- 	CONTROL SURFACES -->
+	<!-- Aileron -->
 	<animation>
 		<type>select</type>
 		<object-name>AileronL</object-name>
@@ -143,14 +145,14 @@
 		</axis>
 	</animation>
 
-<!-- Elevator -->
+	<!-- Elevator -->
 	<animation>
-	    <type>select</type>
-	    <object-name>Elevator</object-name>
-	    <object-name>ElevTab</object-name>
-	    <condition>
-		<property>/sim/failure-manager/controls/flight/elevator/serviceable</property>
-	    </condition>
+		<type>select</type>
+		<object-name>Elevator</object-name>
+		<object-name>ElevTab</object-name>
+		<condition>
+			<property>/sim/failure-manager/controls/flight/elevator/serviceable</property>
+		</condition>
 	</animation>
 
 	<animation>
@@ -196,14 +198,14 @@
 		</axis>
 	</animation>
 
-<!-- RUDDER -->
+	<!-- RUDDER -->
 	<animation>
-	    <type>select</type>
-	    <object-name>RudderL</object-name>
-	    <object-name>RudderR</object-name>
-	    <condition>
-		<property>/sim/failure-manager/controls/flight/rudder/serviceable</property>
-	    </condition>
+		<type>select</type>
+		<object-name>RudderL</object-name>
+		<object-name>RudderR</object-name>
+		<condition>
+			<property>/sim/failure-manager/controls/flight/rudder/serviceable</property>
+		</condition>
 	</animation>
 
 	<animation>
@@ -240,7 +242,7 @@
 		</axis>
 	</animation>
 
-<!-- FLAPS -->
+	<!-- FLAPS -->
 	<animation>
 		<type>rotate</type>
 		<object-name>FlapL</object-name>
@@ -257,22 +259,22 @@
 	</animation>
 
 	<animation>
-	    <type>rotate</type>
-	    <object-name>FlapR</object-name>
-	    <property>surface-positions/flap-pos-norm</property>
-	    <factor>-45</factor>
-	    <axis>
+		<type>rotate</type>
+		<object-name>FlapR</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>-45</factor>
+		<axis>
 			<x1-m> 4.57</x1-m>
 			<y1-m> 4.505</y1-m>
 			<z1-m>-0.359</z1-m>
 			<x2-m> 5.222</x2-m>
 			<y2-m> 0.734</y2-m>
 			<z2-m>-0.705</z2-m>
-	    </axis>
+		</axis>
 	</animation>
 
-<!-- GEAR -->
-<!-- Left Main -->
+	<!-- GEAR -->
+	<!-- Left Main -->
 	<animation>
 		<type>rotate</type>
 		<object-name>GearActL</object-name>
@@ -333,7 +335,7 @@
 		</axis>
 	</animation>
 
-<!-- Right Main -->
+	<!-- Right Main -->
 	<animation>
 		<type>rotate</type>
 		<object-name>GearActR</object-name>
@@ -394,7 +396,7 @@
 		</axis>
 	</animation>
 
-<!-- 	Tail Gear -->
+	<!-- 	Tail Gear -->
 
 	<animation>
 		<type>translate</type>

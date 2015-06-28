@@ -3,8 +3,8 @@
   <path>wasp-jr-SB.ac</path>
 
 	<effect>
-		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
-		<object-name>Engine</object-name>
+	    <inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
+	    <object-name>Engine</object-name>
 	</effect>
 
 	<animation>

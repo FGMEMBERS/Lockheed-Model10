@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
 <PropertyList>
 
-	<path>wasp-jr-SB.ac</path>
+  <path>wasp-jr-SB.ac</path>
 
 	<effect>
-		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
-		<object-name>Engine</object-name>
+	    <inherits-from>Aircraft/Lockheed-L10-Electra/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
+	    <object-name>Engine</object-name>
 	</effect>
 
 	<animation>
