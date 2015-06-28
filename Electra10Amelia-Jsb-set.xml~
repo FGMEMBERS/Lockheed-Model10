@@ -43,7 +43,7 @@
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
-			<path>Aircraft/Lockheed-Model10/Models/Electra10e.xml</path>
+			<path>Aircraft/Lockheed-Model10/Models/Electra10amelia.xml</path>
 
 			<!-- JPack: push forces for Voodoomaster Pushback -->
 			<pushback>
