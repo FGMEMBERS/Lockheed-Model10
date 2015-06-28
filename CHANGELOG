@@ -1,4 +1,13 @@
+2015-06-28:
+	v1.0: JSBsim version reworked
+	       Several additional models now present as a package include
+	       Electra10A, Electra10AAmelia, Electra10B, Electra10C,
+	       Electra10E
+	Complete versioning of changes in the git log at
+	https://github.com/JWocky/Lockheed-Model10/commits/master
+
+
 2011-03-24
-	*v0.1:	Initial git commit
+	v0.1:	Initial git commit
 		Working .dds based texturing
 		Exterior mostly done.
