@@ -37,7 +37,9 @@
 
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/Lockheed-Model10/splash.png</splash-texture>
+		  <splash-texture>Aircraft/Lockheed-Model10/splashScreen/splash1.png</splash-texture>
+		  <splash-texture>Aircraft/Lockheed-Model10/splashScreen/splash2.png</splash-texture>
+		  <splash-texture>Aircraft/Lockheed-Model10/splashScreen/splash3.png</splash-texture>
 		</startup>
 
 		<!-- Settings for model -->
