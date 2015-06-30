@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 #function to simulate airspeed effects on control surfaces with direct links (no hidraulics)
 #it reduces effective input by a factor proportional to the square of the speed
 #also simulating dinamic compensators (for elevator input)

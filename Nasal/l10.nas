@@ -1,3 +1,9 @@
+## Lockheed Model10 Electra for the Flightgear Flight Simulator
+## :copyright: 2007-2008 Tatsuhiro Nishioka
+## :copyright: 2007-2008 Syd Adams
+## :copyright: 2001 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 #Modified from A6M2 gear for iar80
 
 ZeroGear = {

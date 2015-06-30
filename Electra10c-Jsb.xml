@@ -4,6 +4,15 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
+  <!--
+      Lockheed Model 10 Electra for Flightgear Flight Simulator
+      JSBsim implementation
+      :copyright: Peter Brendt, 2015
+      :copyright: Curt Olson, 2004
+      :copyright: 2001-2011, see https://github.com/arktools/jsbsim/blob/master/AUTHORS      
+      License: GPL2. See ./COPYING
+      -->
+  
 	<fileheader>
 		<author> Aeromatic v 0.95 </author>
 		<filecreationdate>2015-03-21</filecreationdate>

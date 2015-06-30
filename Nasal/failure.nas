@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011, Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 var wing_reset = func{
     setprop("/sim/failure-manager/wing/bent", 0);
 }

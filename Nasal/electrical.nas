@@ -1,5 +1,10 @@
 #IAR80  (taken from A6M2 electrical system)
 
+# Lockeed Model 10 Electra for the Flightgear Flight Simulator
+# :copyright: 2007-2008, Syd Adams
+# :copyright: 2011, Emilian Huminiuc
+# License: GPL2. See ./COPYING
+
 var battery = nil;
 var alternator = nil;
 

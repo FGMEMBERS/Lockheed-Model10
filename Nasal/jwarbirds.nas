@@ -1,3 +1,7 @@
+# Lockheed Model 10 Electra for the Flightgear Flight Simultor
+# :copyright: 2006, Tat Nishioka
+# License: GPL2. See ./COPYING
+
 #
 # jwarbirds.nas - A common nas script for Japanese warbirds.
 # Feb. 03, 2006: Tat Nishioka

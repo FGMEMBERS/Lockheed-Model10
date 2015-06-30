@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 # STARTER
 setlistener("controls/switches/starter", func(n) {
 	var pos2 = n.getValue();

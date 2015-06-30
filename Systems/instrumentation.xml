@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
+<!--
+    Lockheed Model 10 Electra for the Flightgear Flight Simulator
+    :copyright: 2015, Peter Brendt
+    :copyright: 2004, Curt Olson
+    License: GPL2. See ./COPYING
+-->
+
 <PropertyList>
 
 	<airspeed-indicator>

@@ -10,6 +10,13 @@
 	power:          450 hp
 	augmented?      no
 	injected?       no
+	-->
+
+<!--
+    Lockheed Model 10 Electra for the Flightgear Flight Simulator
+    :copyright: 2015, Peter Brendt
+    :copyright: 2004, Curt Olson
+    License: GPL2. See ./COPYING
 -->
 
 <piston_engine name="PW_R1340-SC1">

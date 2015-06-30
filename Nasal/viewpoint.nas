@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 setlistener("/sim/signals/fdm-initialized", func {
 	setprop("/gear/gear/rollspeed-ms", 0);
 	setprop("/gear/gear[1]/rollspeed-ms", 0);

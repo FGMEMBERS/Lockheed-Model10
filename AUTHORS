@@ -3,11 +3,12 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Lockheed Model 10 Electra Aircraft for the Flightgear Flight Simulator
 Files: *
 Copyright: 2004, Curtis L. Olson  http://www.flightgear.org/~curt,
+	   2006, Tatshuhiro Nishioka <twitter: @tat_fgmacosx>
+	   2007-2008, Syd Adams <adams.syd@gmail.com>
            2011-2015, Emilian Huminiuc <emilianh@gmail.com>
 	   2015, Peter Brendt <peter.brendt@brendtandbrendt.com>
            2015, Israel Hernandez <israel.a.hernandez@gmail.com>
-License: GPL-2+
-See COPYING
+License: GPL2. See ./COPYING
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

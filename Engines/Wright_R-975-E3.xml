@@ -12,6 +12,13 @@
 	injected?       no
 -->
 
+<!--
+    Lockheed Model 10 Electra for the Flightgear Flight Simulator
+    :copyright: 2015, Peter Brendt
+    :copyright: 2004, Curt Olson
+    License: GPL2. See ./COPYING
+-->
+
 <piston_engine name="W_R985">
 	<minmp unit="INHG">          6.0 </minmp>
 	<maxmp unit="INHG">         28.5 </maxmp>

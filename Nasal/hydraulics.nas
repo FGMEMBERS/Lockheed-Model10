@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 setlistener("/sim/signals/fdm-initialized", func{
     setprop("/systems/hydraulic/pump-at", 0);
     setprop("/systems/hydraulic/flaps-at", 0);

@@ -1,3 +1,7 @@
+## Lockheed Model 10 Electra for the Flightgear Flight Simulator
+## :copyright: 2011 Emilian Huminiuc
+## License: GPL2. See ./COPYING
+
 var kill_engine = func {
 	setprop("/engines/engine[0]/running", 0);
 	setprop("/engines/engine[0]/out-of-fuel", 1);
