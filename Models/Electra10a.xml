@@ -111,11 +111,7 @@
 		<type>rotate</type>
 		<object-name>AileronL</object-name>
 		<property>surface-positions/left-aileron-pos-norm</property>
-		<interpolation>
-			<entry>		<ind>-1</ind>	<dep>-26</dep>	</entry>
-			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
-			<entry>		<ind> 1</ind>	<dep>  6</dep>	</entry>
-		</interpolation>
+		<factor>26</factor>
 		<axis>
 			<x1-m> 4.311</x1-m>
 			<y1-m>-7.874</y1-m>
@@ -130,11 +126,7 @@
 		<type>rotate</type>
 		<object-name>AileronR</object-name>
 		<property>surface-positions/right-aileron-pos-norm</property>
-		<interpolation>
-			<entry>		<ind>-1</ind>	<dep> 26</dep>	</entry>
-			<entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
-			<entry>		<ind> 1</ind>	<dep> -6</dep>	</entry>
-		</interpolation>
+		<factor>26</factor>
 		<axis>
 			<x1-m> 4.311</x1-m>
 			<y1-m> 7.874</y1-m>

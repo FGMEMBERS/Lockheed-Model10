@@ -61,7 +61,7 @@
 		<enginelo>
 			<name>engine-loL</name>
 			<mode>looped</mode>
-			<path>Aircraft/Model10/Sounds/iar-Slow.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/iar-slow.wav</path>
 			<condition>
 				<property>engines/engine[0]/running</property>
 				<greater-than>
@@ -257,7 +257,7 @@
 		<enginelo>
 			<name>engine-loR</name>
 			<mode>looped</mode>
-			<path>Aircraft/Lockheed-Model10/Sounds/iar-Slow.wav</path>
+			<path>Aircraft/Lockheed-Model10/Sounds/iar-slow.wav</path>
 			<condition>
 				<property>engines/engine[1]/running</property>
 				<greater-than>
