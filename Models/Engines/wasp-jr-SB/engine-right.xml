@@ -5,10 +5,15 @@
 	<path>wasp-jr-SB.ac</path>
 
 	<effect>
-		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10_bumpspecreflect_engine</inherits-from>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10-engine-combShaders</inherits-from>
 		<object-name>Engine</object-name>
 	</effect>
 
+	<effect>
+		<inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10-wasp-combShaders</inherits-from>
+		<object-name>Prop</object-name>
+	</effect>
+	
 	<animation>
 		<type>spin</type>
 		<enable-hot>false</enable-hot>
