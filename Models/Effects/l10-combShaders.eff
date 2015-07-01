@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--
+Lockheed Model 10 Electra for Flightgear Fligth Simulator
+:copyright: 2004 Curtis Olson
+:copyright: 2015 Israel Hernandez
+Thanks to Thorsten Renk for critical revision and comments
+License: GPL2. See ./COPYING
+-->
+
 <PropertyList>
   <name>l10-combShaders</name>
   <inherits-from>Effects/model-combined-deferred</inherits-from>

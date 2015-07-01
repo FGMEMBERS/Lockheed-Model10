@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
 
+  <!--
+      Lockheed Model 10 Electra for the Flightgear Flight Simulator
+      :copyright: 2011 Emilian Huminiuc
+      License: GPL2. See ./COPYING
+  -->
+  
 	<name>l10_glass</name>
 	<inherits-from>Effects/reflect</inherits-from>
 	<parameters>

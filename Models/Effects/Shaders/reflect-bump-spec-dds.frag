@@ -1,6 +1,7 @@
+// Lockheed Model 10 for Flightgear Flight Simulator
 // -*- mode: C; -*-
-// Licence: GPL v2
-// Author: Vivian Meazza.
+// Licence: GPL v2. See ./COPYING
+// Author: Vivian Meazza
 
 #version 120
 

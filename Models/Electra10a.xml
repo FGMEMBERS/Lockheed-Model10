@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
+<!--
+Lockheed Model 10 Electra for Flightgear Fligth Simulator
+:copyright: 2004 Curtis Olson
+:copyright: 2011 Emilian Huminiuc
+:copyright: 2015 Peter Brendt
+:copyright: 2015 Israel Hernandez
+License: GPL2. See ./COPYING
+-->
+
 <PropertyList>
 
 	<path>Electra10.ac</path>

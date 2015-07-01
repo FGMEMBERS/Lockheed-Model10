@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--
+Lockheed Model 10 Electra for Flightgear Fligth Simulator
+:copyright: 2004 Curtis Olson
+:copyright: 2015 Israel Hernandez
+Thanks to Thorsten Renk for critical revision and comments
+License: GPL2. See ./COPYING
+-->
+
 <PropertyList>
   <name>l10-wasp-combShaders</name>
   <inherits-from>Effects/model-combined-deferred</inherits-from>
   <parameters>
     <normalmap-enabled type="int">0</normalmap-enabled>
     <!--
-    <normalmap-dds type="int">0</normalmap-dds>
-    <texture n="2">
-      <image>Engines/wasp-jr-SB/wasp-nmap.png</image>
-      <filter>linear-mipmap-linear</filter>
-      <wrap-s>repeat</wrap-s>
-      <wrap-t>repeat</wrap-t>
-      </texture>
-      -->
+	<normalmap-dds type="int">0</normalmap-dds>
+	<texture n="2">
+	<image>Engines/wasp-jr-SB/wasp-nmap.png</image>
+	<filter>linear-mipmap-linear</filter>
+	<wrap-s>repeat</wrap-s>
+	<wrap-t>repeat</wrap-t>
+	</texture>
+    -->
     <lightmap-enabled type="int">0</lightmap-enabled>
     <!--<lightmap-factor type="float"><use>gear/gear/position-norm</use></lightmap-factor>
-    <texture n="3">
-      <image>Engines/wasp-jr-SB/wasp-lightmap.png</image>
-      <filter>linear-mipmap-linear</filter>
-      <wrap-s>clamp</wrap-s>
-      <wrap-t>clamp</wrap-t>
-      <internal-format>normalized</internal-format>
-    </texture>    -->
+	<texture n="3">
+	<image>Engines/wasp-jr-SB/wasp-lightmap.png</image>
+	<filter>linear-mipmap-linear</filter>
+	<wrap-s>clamp</wrap-s>
+	<wrap-t>clamp</wrap-t>
+	<internal-format>normalized</internal-format>
+	</texture>    -->
     <reflection-enabled type="int">1</reflection-enabled>
     <reflection-dynamic type="int">1</reflection-dynamic>
     <reflect_map-enabled type="int">0</reflect_map-enabled>
@@ -43,8 +51,8 @@
     <ambient_correction>0.32</ambient_correction>
   </parameters>
   <!-- ####################
-  ### NORMALMAP INCLUDE ###
-  ######################### -->
+       ### NORMALMAP INCLUDE ###
+       ######################### -->
   <generate>
     <tangent type="int">6</tangent>
     <binormal type="int">7</binormal>
@@ -94,7 +102,7 @@
       </program>
     </pass>
   </technique>
-<!-- ########################
-### END NORMALMAP INCLUDE ###
-############################# -->
+  <!-- ########################
+       ### END NORMALMAP INCLUDE ###
+       ############################# -->
 </PropertyList>
