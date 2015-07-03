@@ -32,6 +32,7 @@ License: GPL2. See ./COPYING
   <effect>
     <inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10-combShaders</inherits-from>
     <object-name>Fuselage.001</object-name>
+    <object-name>CockpitHatch</object-name>
     <object-name>Wing</object-name>
     <object-name>Nose</object-name>
     <object-name>PaxDoor</object-name>
@@ -53,8 +54,8 @@ License: GPL2. See ./COPYING
     <object-name>Exhaust</object-name>
   </effect>
 
-  <animation>
-    <type>material</type>
+  <effect>
+    <inherits-from>Aircraft/Lockheed-Model10/Models/Effects/l10-gear-combShaders</inherits-from>
     <object-name>GearActL</object-name>
     <object-name>GearStrutUL</object-name>
     <object-name>GearStrutLL</object-name>
@@ -67,8 +68,7 @@ License: GPL2. See ./COPYING
     <object-name>BrakeLineR</object-name>
     <object-name>GearTStrut</object-name>
     <object-name>WheelT</object-name>
-    <shininess>16</shininess>
-  </animation>
+  </effect>
   
   <!-- ENGINES -->
   <model>
